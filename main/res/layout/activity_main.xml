@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_mustard"/>
+
+    <EditText
+        android:id="@+id/name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:textColorHint="@color/mustard"
+        android:textColor="@color/mustard"
+        android:textSize="18sp"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_mustard"/>
+
+    <EditText
+        android:id="@+id/email_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:textColorHint="@color/mustard"
+        android:textColor="@color/mustard"
+        android:textSize="18sp"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/phone_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_mustard"/>
+
+    <EditText
+        android:id="@+id/Phone_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@color/mustard"
+        android:textColor="@color/mustard"
+        android:textSize="18sp"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_mustard"/>
+
+    <EditText
+        android:id="@+id/address_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint="Enter Address"
+        android:textColorHint="@color/mustard"
+        android:textColor="@color/mustard"
+        android:textSize="18sp"
+        android:layout_marginTop="6dp"
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Friend"
+        android:layout_margin="30dp"
+        android:shadowRadius="20"
+        android:shadowColor="@color/mustard"/>
+
+
+</LinearLayout>
